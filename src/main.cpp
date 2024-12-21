@@ -81,8 +81,6 @@ void setup()
   InitThruster();
   LEFT_CLAW.servoAttach();
   RIGHT_CLAW.servoAttach();
-  // INF_SPIN_CLAW.servoAttach();
-  // FRONT_BUCKET.servoAttach();
   lcd.clear();
   lastState = stateSwitch1.getTwoStateData();
 }
